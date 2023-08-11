@@ -1,11 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { HeaderComponent } from './components/header/header';
+import CarouselComponent from './components/carousel/carousel';
+import GuesthouseInfoComponent from './components/guesthouse-info/guesthouse-info';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="main-container">
+      <HeaderComponent/>
+
+      <GuesthouseInfoComponent />
+      <CarouselComponent/>
+      
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -18,7 +26,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

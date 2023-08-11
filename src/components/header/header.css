@@ -1,0 +1,29 @@
+.header-container {
+  /* position: sticky;
+  top: 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: aquamarine;
+  color: darkblue;
+  font-weight: 600;
+}
+
+.welcome-text {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets and smaller */
+  .welcome-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for mobile */
+  .welcome-text {
+    font-size: 16px;
+  }
+}
