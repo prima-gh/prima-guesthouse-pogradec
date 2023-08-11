@@ -1,0 +1,41 @@
+.gh-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px; /* Add some spacing between cards */
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets and smaller */
+  .gh-info-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for mobile */
+  .gh-info-container {
+    flex-direction: column;
+  }
+}
+
+.gh-card {
+  flex: 1;
+  background-color: #dbffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  padding-top: 0px;
+  margin: 10px; /* Add margin around cards */
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.gh-card-content {
+  text-align: center;
+}
+
+/* Additional styling as needed */
