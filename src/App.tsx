@@ -4,6 +4,8 @@ import './App.css';
 import { HeaderComponent } from './components/header/header';
 import CarouselComponent from './components/carousel/carousel';
 import GuesthouseInfoComponent from './components/guesthouse-info/guesthouse-info';
+import HouseRulesComponent from './components/house-rules/house-rules';
+import ContactDetailsComponent from './components/contact-details/contact-details';
 
 export const App = () => {
   return (
@@ -12,6 +14,10 @@ export const App = () => {
 
       <GuesthouseInfoComponent />
       <CarouselComponent/>
+
+      <HouseRulesComponent/>
+
+      <ContactDetailsComponent/>
       
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

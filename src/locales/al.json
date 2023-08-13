@@ -8,7 +8,23 @@
         "facilitiesTitle": "Çfarë ofrojmë: Fasilitetet dhe Pajisjet",
         "facilitiesDetails": "Kemi një apartament të pajisur plotësisht vetëm për ju. Kuzhina është e pajisur me gjithçka që ju nevojitet për të përgatitur jo vetëm mëngjesin, por edhe drekën apo darkën. Në dhomën e ndenjes/gjumit, kemi kondicioner ajri të nevojshëm për të mbajtur temperaturën e dhomës gjithmonë optimale. Televizori është cilësor, me një madhësi 43 inç. Lidhja Wi-Fi nuk është vetëm stabile, por edhe shumë e shpejtë. Tualeti ka gjithçka që ju nevojitet, plus që ka një lavatrice. Ju ofrojmë gjithashtu tharës flokësh, hekur për hekurosje, mikrovalë dhe ngrohës uji për çaj. Ende e rëndësishme, ne ju sigurojmë dy peshqira të freskëta për person, një për trupin tuaj dhe një tjetër për fytyrën tuaj. Ska mbaruar, qershia mbi tortë, apartamenti gjithashtu ka një ballkon me një pamje vërtet fantastike, të drejtuar në perëndim, për ato perëndime të mahnitshme. Dritarja e madhe e dhomës është praktikisht e projektuar për relaksim, duke e bërë atë tiparin kryesor të apartamentit tonë. Në total, apartamenti ka një sipërfaqe prej 52 metrash katrorë.",
         "preferedVisitorsTitle": "Kush e preferon më së shumti Apartamentin tonë?",
-        "preferedVisitorsDetails": "Apartamenti jonë ka një qasje të veçantë për çifte të të gjitha moshave, rezulton se ata e preferojne më shumë. Dhe madje çiftet me fëmijë na vizitojnë shpesh dhe largohen të kënaqur. Ne nuk jemi vetëm për çifte, grupet e vogla prej 2-3 shokësh/miqsh dhe vizitorët vetëm, gjithashtu përbëjnë një pjesë të mirë të vizitorëve tanë. Duke ju referuar qëndrimit tek ne, jemi një zgjedhje e preferuar për ata që duan të qëndrojnë për një kohë mesatare ose të gjatë, me qëndrime që variojnë nga 4 deri në 15 ditë. Dimrat e Pogradecit, të cilët ndonjëherë janë të pamëshirshëm nuk janë aspak problem tek ne. Fatmirësisht, Prima Guesthouse, është mrekullisht i ngrohtë brenda, falë izolimit të shkëlqyer të erës. Për më tepër, Apartamenti ynë është i ekspozuar drejt diellit, duke thithur rreze për rreth 80% të ditës. Duke konsideruar të gjithë këto faktorë, apartamenti ynë është një zgjedhje e shkëlqyer edhe gjatë muajve dimërorë. Dhe është  shumë e shpeshtë që të kemi mysafirë dhe në muajt e dimrit Nëntor, Dhjetor dhe madje edhe Janar."
+        "preferedVisitorsDetails": "Apartamenti jonë ka një qasje të veçantë për çifte të të gjitha moshave, rezulton se ata e preferojne më shumë. Dhe madje çiftet me fëmijë na vizitojnë shpesh dhe largohen të kënaqur. Ne nuk jemi vetëm për çifte, grupet e vogla prej 2-3 shokësh/miqsh dhe vizitorët vetëm, gjithashtu përbëjnë një pjesë të mirë të vizitorëve tanë. Duke ju referuar qëndrimit tek ne, jemi një zgjedhje e preferuar për ata që duan të qëndrojnë për një kohë mesatare ose të gjatë, me qëndrime që variojnë nga 4 deri në 15 ditë. Dimrat e Pogradecit, të cilët ndonjëherë janë të pamëshirshëm nuk janë aspak problem tek ne. Fatmirësisht, Prima Guesthouse, është mrekullisht i ngrohtë brenda, falë izolimit të shkëlqyer të erës. Për më tepër, Apartamenti ynë është i ekspozuar drejt diellit, duke thithur rreze për rreth 70% të ditës. Duke konsideruar të gjithë këto faktorë, apartamenti ynë është një zgjedhje e shkëlqyer edhe gjatë muajve dimërorë. Dhe është  shumë e shpeshtë që të kemi mysafirë dhe në muajt e dimrit Nëntor, Dhjetor dhe madje edhe Janar."
+    },
+    "houseRules": {
+        "houseRules": "Rregullat e Apartamentit",
+        "ruleReservations": "Ju mund të rezervoni qëndrimin tuaj për minimumi 2 netë deri në 3 muaj!",
+        "ruleDiscount": "Nëse dëshironi të qëndroni për 6 netë ose më shumë, ne ofrojmë gjithmonë oferta speciale. Na kontaktoni për të mësuar më shumë rreth këtyre ofertave ekskluzive.",
+        "rule1": "Check-in bëhet nga ora 14:00 deri në orën 21:00. Në raste specifike na njoftoni paraprakisht.",
+        "rule2": "Check-out bëhet nga ora 07:00 deri në orën 11:00. Në raste specifike na njoftoni paraprakisht.",
+        "rule3": "Duhani lejohet vetëm në ballkon.",
+        "rule4": "Pagesa duhet të bëhet në momentin e dorëzimit të çelësave. Pranojmë LEK, EURO ose DOLLAR.",
+        "rule5": "Gjatë check-out apo lënies të ambjenteve tona, çelësin ju lutem ta vendosni tek vendi i dedikuar, dhe thjesht tërhiqeni derën pasi të jeni siguruar që nuk keni harruar ndonjë send personal.",
+        "distance": "Distanca nga pikat e rëndësishme"
+    },
+    "contactDetails": {
+        "visitInsta": "Na vizitoni në Instagram",
+        "visitBooking": "Na vizitoni në Booking",
+        "visitMaps": "Na vizitoni në Google Maps"
     }
-    
+
 }

@@ -21,21 +21,48 @@
 
 .gh-card {
   flex: 1;
-  background-color: #dbffff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 30px;
   padding-top: 0px;
-  margin: 10px; /* Add margin around cards */
+  margin: 10px;
   transition: transform 0.3s ease-in-out;
+}
 
-  &:hover {
-    transform: scale(1.03);
-  }
+.gh-card:hover {
+  transform: scale(1.03);
+}
+
+.pogradec {
+  background-image: url("../../assets/images/pogradec.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.drilon {
+  background-image: url("../../assets/images/drilon.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.lake {
+  background-image: url("../../assets/images/lake.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .gh-card-content {
   text-align: center;
 }
 
-/* Additional styling as needed */
+.gh-card-content > p {
+  text-align: justify; 
+  font-size: 13px; 
+  font-weight: 500; 
+  color: darkblue;
+}
+
+.gh-card-content > h4 {
+  color: darkblue; 
+  opacity: 0.5;
+}

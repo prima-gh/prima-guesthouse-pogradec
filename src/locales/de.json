@@ -1,5 +1,29 @@
 {
     "header": {
       "welcome": "Willkommen im Prima Guesthouse!"
+    },
+    "guesthouseInfo": {
+        "locationTitle": "Wo können Sie uns finden?",
+        "locationDetails": "Wir befinden uns mitten im Herzen der bezaubernden Stadt Pogradec, umgeben von allerlei wichtigen Orten, die Sie bequem zu Fuß erreichen können, und es wird Sie nicht mehr als 15 Minuten kosten. Unser Gästehaus befindet sich im 5. Stock, und Sie können mit dem Aufzug dorthin gelangen. Direkt nebenan haben Sie die orthodoxe Kirche, und raten Sie mal? Im selben Gebäude gibt es einen Markt direkt unten. Der wichtigste Teil der Stadt, der See? Er ist praktisch einen Steinwurf entfernt, nur 3 Minuten zu Fuß (270m), und wenn Sie den Strand suchen, sind es 4 Minuten zu Fuß (300m). Wollen Sie ins Stadtzentrum? Es ist ein entspannter 6-minütiger Spaziergang (500m). Und machen Sie sich keine Sorgen, wenn Sie mit dem Bus unterwegs sind, der zentrale Busbahnhof ist nur etwa 4 Minuten zu Fuß (400m) von hier entfernt. Wenn es um Essen und Getränke geht, die besten Bars und Restaurants in Pogradec, können Sie sie leicht in 3 bis 10 Minuten zu Fuß erreichen.",
+        "facilitiesTitle": "Was wir anbieten: Annehmlichkeiten und Einrichtungen",
+        "facilitiesDetails": "Wir haben eine voll ausgestattete Wohnung nur für Sie. Die Küche ist komplett eingerichtet mit allem, was Sie brauchen, um nicht nur Frühstück, sondern auch Mittag- und Abendessen zuzubereiten. Im Wohn-/Schlafzimmer gibt es eine angenehme Klimaanlage, um es bequem zu halten. Der Fernseher ist von guter Qualität und hat eine Größe von 43 Zoll. Die Wi-Fi-Verbindung ist nicht nur stabil, sondern auch hochgeschwindig. Das Badezimmer hat alles, was Sie brauchen, und es gibt auch eine Waschmaschine. Wir bieten Ihnen auch einen Haartrockner, ein Bügeleisen, eine Mikrowelle und einen Teekocher. Noch wichtiger ist, dass wir Sie mit zwei frischen Handtüchern pro Person ausstatten, eins für Ihren Körper und eins für Ihr Gesicht. Moment, da ist mehr, die Wohnung hat auch einen Balkon mit einer wirklich tollen Aussicht, die alle nach Westen zeigen für diese erstaunlichen Sonnenuntergänge. Das große Fenster im Wohnzimmer ist praktisch für Entspannung entworfen und ist das Hauptmerkmal unseres Gästehauses. Übrigens erstreckt sich die gesamte Wohnung über kühle 52 Quadratmeter.",
+        "preferedVisitorsTitle": "Wer liebt unser Gästehaus am meisten?",
+        "preferedVisitorsDetails": "Unser Gästehaus hat einen besonderen Reiz für Paare jeden Alters, sie scheinen es am meisten zu lieben. Und selbst Paare mit einem Kind finden den Weg zu uns und genießen ihren Aufenthalt gründlich. Wir sind jedoch nicht nur auf Paare beschränkt, auch kleine Gruppen von 2-3 Freunden und Alleinreisende machen einen großen Teil unserer Besucher aus. Wenn es um Besuche geht, sind wir eine beliebte Wahl für diejenigen, die sich eine Weile niederlassen möchten, mit Aufenthalten von 4 bis 15 Tagen. Nun, lassen Sie uns über die manchmal unbarmherzigen Winter in Pogradec sprechen. Glücklicherweise ist das Prima Guesthouse gut ausgestattet, es ist drinnen wunderbar warm, dank einer ausgezeichneten Windisolierung. Aber das ist nicht alles. Unsere Wohnung ist wie ein Sonnenmagnet und nimmt etwa 70% des Tages die Strahlen auf. Mit all diesen Faktoren im Spiel ist unser Ort selbst in den Wintermonaten ein absoluter Zufluchtsort. Und es ist nicht ungewöhnlich, dass Gäste im November, Dezember und sogar Januar zu uns kommen, sie wissen, wo sie Komfort finden können."
+    },
+    "houseRules": {
+        "houseRules": "Hausregeln des Gästehauses",
+        "ruleReservations": "Buchen Sie gerne Ihren Aufenthalt für mindestens 2 Nächte bis zu gemütlichen 3 Monaten!",
+        "ruleDiscount": "Wenn Sie einen Aufenthalt von 6 Nächten oder länger planen, haben wir fantastische Sonderangebote für Sie parat. Kontaktieren Sie uns, um alles über diese exklusiven Angebote zu erfahren.",
+        "rule1": "Das Einchecken ist von 14:00 bis 21:00 Uhr möglich. In besonderen Fällen, informieren Sie uns bitte im Voraus.",
+        "rule2": "Das Auschecken ist von 07:00 bis 11:00 Uhr möglich. In besonderen Fällen, informieren Sie uns bitte im Voraus.",
+        "rule3": "Rauchen ist nur auf dem Balkon gestattet.",
+        "rule4": "Die Zahlung erfolgt bei Schlüsselübergabe. Wir akzeptieren ALL, EURO oder DOLLAR.",
+        "rule5": "Beim Auschecken oder Verlassen unserer Unterkunft legen Sie den Schlüssel bitte an den dafür vorgesehenen Platz und schließen Sie einfach die Tür, nachdem Sie sich vergewissert haben, dass Sie keine persönlichen Gegenstände vergessen haben.",
+        "distance": "Entfernung zu wichtigen Orten"
+    },
+    "contactDetails": {
+        "visitInsta": "Besuchen Sie uns auf Instagram",
+        "visitBooking": "Besuchen Sie uns auf Booking",
+        "visitMaps": "Besuchen Sie uns auf Google Maps"
     }
 }

@@ -8,6 +8,22 @@
         "facilitiesTitle": "What we offer: Amenities and Facilities",
         "facilitiesDetails": "We've got a fully equipped apartment just for you. The kitchen is all set up with everything you need to whip up more than just breakfast, think lunch and dinner too. In the living/sleeping room, there's some nice air conditioning to keep things comfy. The TV is a quality piece, a good 43 inches in size. The Wi-Fi connection is not only stable but also high-speed. The toilet's got everything you need, plus there's a washing machine right there. We're offering you also a hair dryer, iron, microwave, and a simple tea maker. Still important, and we're setting you up with two fresh towels per person, one for your body and another for your face. Wait, there's more, the apartment also boasts a balcony with a seriously great view, all pointing west for those amazing sunsets. The living room's big window is practically designed for relaxation, making it the star feature of our guesthouse. By the way, the whole apartment spans a cool 52 square meters.",
         "preferedVisitorsTitle": "Who's Lovin' our Guesthouse the most?",
-        "preferedVisitorsDetails": "Our guesthouse has a special appeal to couples of all ages, they seem to be loving it the most. And even couples with a child find their way to us and thoroughly enjoy their stay. We're not just about couples though, small groups of 2-3 friends and solo travelers also make up a good chunk of our visitors. Speaking of visits, we're a popular choice for those looking to settle in for a while, with stays ranging from 4 to 15 days. Now, let's talk about Pogradec's sometimes unforgiving winters. Luckily, Prima Guesthouse has you covered, it's wonderfully warm indoors, thanks to some excellent wind insulation. But that's not all. Our apartment is like a sun magnet, soaking up rays for about 80% of the day. With all these factors at play, our place is an absolute haven even in the winter months. And it's not uncommon for us to have guests coming in November, December, and even January, they know where to find comfort."
+        "preferedVisitorsDetails": "Our guesthouse has a special appeal to couples of all ages, they seem to be loving it the most. And even couples with a child find their way to us and thoroughly enjoy their stay. We're not just about couples though, small groups of 2-3 friends and solo travelers also make up a good chunk of our visitors. Speaking of visits, we're a popular choice for those looking to settle in for a while, with stays ranging from 4 to 15 days. Now, let's talk about Pogradec's sometimes unforgiving winters. Luckily, Prima Guesthouse has you covered, it's wonderfully warm indoors, thanks to some excellent wind insulation. But that's not all. Our apartment is like a sun magnet, soaking up rays for about 70% of the day. With all these factors at play, our place is an absolute haven even in the winter months. And it's not uncommon for us to have guests coming in November, December, and even January, they know where to find comfort."
+    },
+    "houseRules": {
+        "houseRules": "Guesthouse rules",
+        "ruleReservations": "Feel free to book your stay for a minimum of 2 nights up to a cozy 3 months!",
+        "ruleDiscount": "If you're planning to stay for 6 nights or more, we've got some fantastic special discounts waiting for you. Get in touch with us to learn all about these exclusive deals.", 
+        "rule1": "Check-in is from 14:00 until 21:00. In specific cases, please notify us in advance.",
+        "rule2": "Check-out is from 07:00 until 11:00. In specific cases, please notify us in advance.",
+        "rule3": "Smoking is only allowed on the balcony.",
+        "rule4": "Payment should be made upon key handover. We accept ALL, EURO, or DOLLAR.",
+        "rule5": "During check-out or when leaving our place, please put the key in the dedicated spot, and simply close the door after ensuring you haven't forgotten any personal belongings.",
+        "distance": "Distance to key places"
+    },
+    "contactDetails": {
+        "visitInsta": "Visit us on Instagram",
+        "visitBooking": "Visit us on Booking",
+        "visitMaps": "Visit us on Google Maps"
     }
 }
