@@ -1,16 +1,18 @@
 import { Carousel } from "antd";
 import React from "react";
-import image1 from '../../assets/images/1.jpg'
-import image2 from '../../assets/images/2.jpg'
-import image3 from '../../assets/images/3.jpg'
-import image4 from '../../assets/images/4.jpg'
-import image5 from '../../assets/images/5.jpg'
-import image6 from '../../assets/images/6.jpg'
-import image7 from '../../assets/images/7.jpg'
-import image8 from '../../assets/images/8.jpg'
-import image9 from '../../assets/images/9.jpg'
 import { IImage } from "../../utils/interfaces";
 import './carousel.css'; 
+
+
+const image1 = require('../../assets/images/1.jpg');
+const image2 = require('../../assets/images/2.jpg');
+const image3 = require('../../assets/images/3.jpg');
+const image4 = require('../../assets/images/4.jpg');
+const image5 = require('../../assets/images/5.jpg');
+const image6 = require('../../assets/images/6.jpg');
+const image7 = require('../../assets/images/7.jpg');
+const image8 = require('../../assets/images/8.jpg');
+const image9 = require('../../assets/images/9.jpg');
 
 const images: IImage[] = [
     { 

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import { ConfigProvider } from 'antd';
 import enUS from 'antd/lib/locale/en_US'; // Import locale for English (you can change this as needed)
@@ -9,6 +8,7 @@ import { initReactI18next } from 'react-i18next';
 import en from './locales/en.json';
 import de from './locales/de.json';
 import al from './locales/al.json';
+import './index.css';
 
 i18n
   .use(initReactI18next)

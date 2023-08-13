@@ -1,12 +1,13 @@
 import React from "react";
-import Insta from "../../assets/icons/insta.png";
-import Phone from "../../assets/icons/phone.png";
-import Wap from "../../assets/icons/wap.png";
-import Maps from "../../assets/icons/maps.png";
-import Booking from "../../assets/icons/booking.png";
 import { Tooltip } from "antd";
 import { useTranslation } from "react-i18next";
 import "./contact-details.css";
+
+const Insta = require('../../assets/icons/insta.png');
+const Phone = require('../../assets/icons/phone.png');
+const Wap = require('../../assets/icons/wap.png');
+const Maps = require('../../assets/icons/maps.png');
+const Booking = require('../../assets/icons/booking.png');
 
 const ContactDetailsComponent = () => {
   const { t } = useTranslation();

@@ -1,12 +1,13 @@
 import React, { FC, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FloatButton } from 'antd';
-import AlFlag from '../../assets/images/al-flag.png';
-import EnFlag from '../../assets/images/en-flag.png';
-import DeFlag from '../../assets/images/de-flag.png';
-import HomeIcon from '../../assets/images/home-icon.png';
 import { LanguageEnum } from '../../utils/enums';
 import './header.css';
+
+const AlFlag = require('../../assets/images/al-flag.png');
+const EnFlag = require('../../assets/images/en-flag.png');
+const DeFlag = require('../../assets/images/de-flag.png');
+const HomeIcon = require('../../assets/images/home-icon.png');
 
 export const HeaderComponent: FC = () => {
   const [language, setLanguage] = useState<LanguageEnum>(LanguageEnum.EN)

@@ -1,7 +1,7 @@
-#!/bin/bash
+# #!/bin/bash
 
-echo "------------------Installing npm packages------------------"
-npm install
+# echo "------------------Installing npm packages------------------"
+# npm install
 
 echo "------------------Installing 'gh-pages'------------------"
 npm install --save-dev gh-pages
@@ -13,4 +13,3 @@ npm run build
 # Deploy the built app to GitHub Pages
 echo "------------------Deploying the app to GitHub Pages------------------"
 gh-pages -d build
-
