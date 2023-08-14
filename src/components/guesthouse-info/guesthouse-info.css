@@ -10,12 +10,20 @@
   .gh-info-container {
     flex-direction: column;
   }
+
+  .gh-card-content > p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   /* Styles for mobile */
   .gh-info-container {
     flex-direction: column;
+  }
+
+  .gh-card-content > p {
+    font-size: 13px;
   }
 }
 
@@ -57,12 +65,12 @@
 
 .gh-card-content > p {
   text-align: justify; 
-  font-size: 13px; 
+  font-size: 15px; 
   font-weight: 500; 
   color: darkblue;
 }
 
-.gh-card-content > h4 {
+.gh-card-content > h3 {
   color: darkblue; 
   opacity: 0.5;
 }

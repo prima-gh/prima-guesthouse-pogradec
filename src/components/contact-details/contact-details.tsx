@@ -1,5 +1,6 @@
 import React from "react";
 import { Tooltip } from "antd";
+import MobileDetect from 'mobile-detect';
 import { useTranslation } from "react-i18next";
 import "./contact-details.css";
 
@@ -12,6 +13,22 @@ const Booking = require('../../assets/icons/booking.png');
 const ContactDetailsComponent = () => {
   const { t } = useTranslation();
 
+  const phoneNumber = '+355685650070';
+
+  const callUs = () => {
+    const md = new MobileDetect(window.navigator.userAgent);
+debugger
+    if (md.mobile()) {
+      window.location.href = `tel:${phoneNumber}`;
+    } else {
+      // Handle non-mobile behavior here, if needed
+      console.log('Not a mobile device');
+    }
+  };
+  const sendMessageWhatsapp = () => {
+    window.open("https://wa.me/+355685650070", "_blank")
+  }
+
   const navigateToInsta = () => {
     window.open("https://instagram.com/prima.guesthouse.pg?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D", "_blank");
   };
@@ -23,35 +40,40 @@ const ContactDetailsComponent = () => {
   const navigateToBooking = () => {
     window.open("https://www.booking.com/Share-8pO95x", "_blank");
   }
+  
 
   return (
     <div className="footer-container">
       <div className="contact-section">
-        <div style={{ cursor: "pointer", marginRight: 15 }}>
-          <img src={Phone} height={28} width={28} alt="Phone" />
-          <p style={{ marginTop: 5 }}>+355 69 704 6181</p>
+        <div onClick={callUs} style={{ cursor: "pointer", marginRight: 15 }}>
+          <Tooltip title={t('contactDetails.phonecall')} placement="right" color="darkgreen" trigger={"hover"}>
+            <img src={Phone} height={28} width={28} alt="Phone" />
+            <p style={{ marginTop: 5 }}>+355 69 704 6181</p>
+          </Tooltip>
         </div>
-        <div style={{ cursor: "pointer", marginRight: 15 }}>
-          <img src={Wap} height={28} width={28} alt="Wap" />
-          <p style={{ marginTop: 5 }}>+355 68 565 0070</p>
+        <div onClick={sendMessageWhatsapp} style={{ cursor: "pointer", marginRight: 15 }}>
+          <Tooltip title={t('contactDetails.whatsapp')} placement="right" color="darkgreen" trigger={"hover"}>
+            <img src={Wap} height={28} width={28} alt="Wap" />
+            <p style={{ marginTop: 5 }}>+355 68 565 0070</p>
+          </Tooltip>
         </div>
 
         <div onClick={navigateToBooking} style={{ cursor: "pointer", marginRight: 15 }}>
-          <Tooltip title={t('contactDetails.visitBooking')} placement="right" color="darkgreen">
+          <Tooltip title={t('contactDetails.visitBooking')} placement="right" color="darkgreen" trigger={"hover"}>
             <img src={Booking} height={32} width={35} alt="Booking" />
             <p style={{ marginTop: 2 }}>Prima Guesthouse</p>
           </Tooltip>
         </div>
 
         <div onClick={navigateToMaps} style={{ cursor: "pointer", marginRight: 15 }}>
-          <Tooltip title={t('contactDetails.visitMaps')} placement="right" color="darkgreen">
+          <Tooltip title={t('contactDetails.visitMaps')} placement="right" color="darkgreen" trigger={"hover"}>
             <img src={Maps} height={28} width={28} alt="Maps" />
             <p style={{ marginTop: 5 }}>Prima Guesthouse</p>
           </Tooltip>
         </div>
         
-        <div onClick={navigateToInsta} style={{ cursor: "pointer" }}>
-          <Tooltip title={t('contactDetails.visitInsta')} placement="right" color="darkgreen">
+        <div onClick={navigateToInsta} style={{ cursor: "pointer" }} >
+          <Tooltip title={t('contactDetails.visitInsta')} placement="right" color="darkgreen" trigger={"hover"}>
             <img src={Insta} height={28} width={28} alt="Insta" />
             <p style={{ marginTop: 5 }}>prima.guesthouse.pg</p>
           </Tooltip>

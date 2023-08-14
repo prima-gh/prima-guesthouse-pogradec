@@ -22,6 +22,8 @@
         "distance": "Entfernung zu wichtigen Orten"
     },
     "contactDetails": {
+        "phonecall": "Rufen Sie uns an",
+        "whatsapp": "Kontaktieren Sie uns über WhatsApp",
         "visitInsta": "Besuchen Sie uns auf Instagram",
         "visitBooking": "Besuchen Sie uns auf Booking",
         "visitMaps": "Besuchen Sie uns auf Google Maps"

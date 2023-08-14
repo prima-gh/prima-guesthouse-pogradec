@@ -1,6 +1,6 @@
 import React from "react";
-import "./guesthouse-info.css";
 import { useTranslation } from "react-i18next";
+import "./guesthouse-info.css";
 
 const GuesthouseInfoComponent = () => {
   const { t } = useTranslation();
@@ -9,7 +9,7 @@ const GuesthouseInfoComponent = () => {
     <div className="gh-info-container">
       <div className="gh-card pogradec">
         <div className="gh-card-content">
-          <h4>{t('guesthouseInfo.locationTitle')}</h4>
+          <h3>{t('guesthouseInfo.locationTitle')}</h3>
           <p>
             {t('guesthouseInfo.locationDetails')}
           </p>
@@ -18,7 +18,7 @@ const GuesthouseInfoComponent = () => {
 
       <div className="gh-card drilon">
         <div className="gh-card-content">
-          <h4>{t('guesthouseInfo.facilitiesTitle')}</h4>
+          <h3>{t('guesthouseInfo.facilitiesTitle')}</h3>
           <p>
             {t('guesthouseInfo.facilitiesDetails')}
           </p>
@@ -27,7 +27,7 @@ const GuesthouseInfoComponent = () => {
 
       <div className="gh-card lake">
         <div className="gh-card-content">
-          <h4>{t('guesthouseInfo.preferedVisitorsTitle')}</h4>
+          <h3>{t('guesthouseInfo.preferedVisitorsTitle')}</h3>
           <p>
             {t('guesthouseInfo.preferedVisitorsDetails')}
           </p>

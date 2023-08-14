@@ -24,7 +24,8 @@
 
 .column > ul {
   text-align: justify;
-  font-size: 13px;
+  word-spacing: 1px;
+  font-size: 15px;
   font-weight: 500;
   color: darkblue;
 }
@@ -39,27 +40,35 @@
 @media screen and (max-width: 768px) {
   /* Styles for tablets and smaller */
   .column {
-    width: 85%;
+    width: 99%;
     margin: 0;
     padding: 0;
   }
 
+  .column > ul {
+    font-size: 14px;
+  }
+
   .container {
     flex-direction: column;
-    max-width: 98%;
+    max-width: 99%;
   }
 }
 
 @media screen and (max-width: 480px) {
   /* Styles for mobile */
   .column {
-    width: 85%;
+    width: 99%;
     margin: 0;
     padding: 0;
   }
 
+  .column > ul {
+    font-size: 13px;
+  }
+
   .container {
     flex-direction: column;
-    max-width: 96%;
+    max-width: 99%;
   }
 }

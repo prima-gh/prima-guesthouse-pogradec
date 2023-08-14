@@ -22,6 +22,8 @@
         "distance": "Distanca nga pikat e rëndësishme"
     },
     "contactDetails": {
+        "phonecall": "Na telefononi",
+        "whatsapp": "Na kontaktoni përmes WhatsApp",
         "visitInsta": "Na vizitoni në Instagram",
         "visitBooking": "Na vizitoni në Booking",
         "visitMaps": "Na vizitoni në Google Maps"
