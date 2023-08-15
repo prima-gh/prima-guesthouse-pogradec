@@ -11,10 +11,8 @@ const HouseRulesComponent = () => {
         <div className="column">
           <h4>{t('houseRules.houseRules')}</h4>
           <ul style={{ textAlign: "justify" }}>
-          <li>{t('houseRules.ruleReservations')}</li>
-
-          <li>{t('houseRules.ruleDiscount')}</li>
-
+            <li>{t('houseRules.ruleReservations')}</li>
+            <li>{t('houseRules.ruleDiscount')}</li>
             <li>{t('houseRules.rule1')}</li>
             <li>{t('houseRules.rule2')}</li>
             <li>{t('houseRules.rule3')}</li>
@@ -26,6 +24,7 @@ const HouseRulesComponent = () => {
           <h4>{t('houseRules.distance')}</h4>
           <ul style={{ textAlign: "justify" }}>
             <li>Drilon, Albania: 5 km</li>
+            <li>Saint Naum, North Macedonia: 11km</li>
             <li>Lin, Albania: 20 km</li>
             <li>Korçë, Albania: 40 km</li>
             <li>Ohrid, North Macedonia: 40 km</li>

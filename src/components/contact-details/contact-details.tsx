@@ -13,16 +13,15 @@ const Booking = require('../../assets/icons/booking.png');
 const ContactDetailsComponent = () => {
   const { t } = useTranslation();
 
-  const phoneNumber = '+355685650070';
+  const phoneNumber: string = '+355697046181';
 
   const callUs = () => {
-    const md = new MobileDetect(window.navigator.userAgent);
-debugger
+    const md: MobileDetect = new MobileDetect(window.navigator.userAgent);
+
     if (md.mobile()) {
       window.location.href = `tel:${phoneNumber}`;
     } else {
-      // Handle non-mobile behavior here, if needed
-      console.log('Not a mobile device');
+     return;     
     }
   };
   const sendMessageWhatsapp = () => {
@@ -40,7 +39,6 @@ debugger
   const navigateToBooking = () => {
     window.open("https://www.booking.com/Share-8pO95x", "_blank");
   }
-  
 
   return (
     <div className="footer-container">
