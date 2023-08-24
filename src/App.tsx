@@ -5,6 +5,7 @@ import GuesthouseInfoComponent from './components/guesthouse-info/guesthouse-inf
 import HouseRulesComponent from './components/house-rules/house-rules';
 import ContactDetailsComponent from './components/contact-details/contact-details';
 import './App.css';
+import VisitorReviewsComponent from './components/visitor-reviews/visitor-reviews';
 
 export const App = () => {
   return (
@@ -13,7 +14,10 @@ export const App = () => {
       <GuesthouseInfoComponent />
       <CarouselComponent/>
       <HouseRulesComponent/>
+      <VisitorReviewsComponent/>
+
       <ContactDetailsComponent/>
+
     </div>
   );
 }

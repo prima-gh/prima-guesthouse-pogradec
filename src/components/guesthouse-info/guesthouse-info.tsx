@@ -12,7 +12,7 @@ const GuesthouseInfoComponent = () => {
           <h3>{t('guesthouseInfo.locationTitle')}</h3>
           <p>
             {t('guesthouseInfo.locationDetails')}
-          </p>
+          </p> 
         </div>
       </div>
 

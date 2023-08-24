@@ -11,13 +11,25 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   background: #f1f1f1;
-}
+}   
 
 body::-webkit-scrollbar-thumb {
-  background: darkcyan;
+  background: #CCD5AE;
   border-radius: 1px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: darkcyan;
+  background: #CCD5AE;
 }
+
+
+
+
+/* palete: 
+#FAEDCD
+#FEFAE0
+#E9EDC9
+#CCD5AE 
+#94AF9F
+#617143
+*/

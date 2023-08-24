@@ -64,13 +64,13 @@
 }
 
 .gh-card-content > p {
-  text-align: justify; 
+  text-align: center; 
   font-size: 15px; 
   font-weight: 500; 
-  color: darkblue;
+  color: #49592e;
 }
 
 .gh-card-content > h3 {
-  color: darkblue; 
+  color: #49592e; 
   opacity: 0.5;
 }

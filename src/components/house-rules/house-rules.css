@@ -27,13 +27,13 @@
   word-spacing: 1px;
   font-size: 15px;
   font-weight: 500;
-  color: darkblue;
+  color: #49592e;
 }
 
 .column > h4 {
   text-align: left;
   margin-left: 38px;
-  color: darkblue;
+  color: #49592e;
   opacity: 0.5;
 }
 
