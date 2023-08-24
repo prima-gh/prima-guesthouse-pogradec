@@ -16,12 +16,12 @@ const VisitorReviewsComponent = () => {
     setTimeout(() => {
       setCurrentReviewIndex((prevIndex) => (prevIndex + 1) % visitorReviews.length);
       setIsTransitioning(false);
-    }, 500); // Wait for the exit transition to complete before changing review
+    }, 500);
   };
 
 
   useEffect(() => {
-    const interval = setInterval(handleNextReview, 3000);
+    const interval = setInterval(handleNextReview, 10000);
     return () => clearInterval(interval);
   }, []);
 
