@@ -1,67 +1,50 @@
-.review-container {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    max-width: 300px; /* Adjust as needed */
-    margin: 0 auto;
-  }
-  
-  .review-item {
-    flex: 0 0 100%;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .review-container.animate {
-    animation: slide-animation 10s infinite;
-  }
-  
-  @keyframes slide-animation {
-    0%, 100% {
-      transform: translateX(0);
-    }
-    20%, 100% {
-      transform: translateX(-100%);
-    }
-    40%, 100% {
-      transform: translateX(-200%);
-    }
-    /* Add more keyframes for additional items */
-  }
+.visitor-review-section {
+  text-align: center;
+  padding: 20px;
+  background: #e9edc9;
+}
 
-  .visitor-review-section {
-    text-align: center; 
-    padding: 20px; 
-    background: #E9EDC9;
-  }
+.section-title {
+  background: #e9edc9;
+  color: #94af9f;
+  font-size: 22px;
+  font-weight: 600;
+}
 
-  .section-title {
-    background: #E9EDC9; 
-    color: #94AF9F; 
-    font-size: 22px; 
-    font-weight: 600;
-  }
+.review-card {
+  background: #e9edc9;
+  color: #617143;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 0px;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
 
+.review-card-exit {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.review-card-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.review-card-enter-active,
+.review-card-exit-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.author-title {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: "italic";
+}
+
+@media screen and (min-width: 768px) {
   .review-card {
-    background: #E9EDC9; 
-    color: #617143; 
-    font-size: 22px;
-    font-weight: 600; 
-    padding-top: 0px;
+    width: 70%;
+    margin: auto;
   }
-
-  .author-title {
-    font-size: 18px;
-    font-weight: 500; 
-    font-style: 'italic';
-  }
-  
-
-  @media screen and (min-width: 768px) {
-    .review-card {
-        width: 70%;
-        margin: auto;
-    }
-  }
-  
+}

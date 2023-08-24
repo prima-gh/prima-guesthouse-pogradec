@@ -9,19 +9,26 @@ const VisitorReviewsComponent = () => {
 
   const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
 
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
   const handleNextReview = () => {
-    setCurrentReviewIndex((prevIndex) => (prevIndex + 1) % visitorReviews.length);
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setCurrentReviewIndex((prevIndex) => (prevIndex + 1) % visitorReviews.length);
+      setIsTransitioning(false);
+    }, 500); // Wait for the exit transition to complete before changing review
   };
 
+
   useEffect(() => {
-    const interval = setInterval(handleNextReview, 10000); // Auto play every 10 seconds
+    const interval = setInterval(handleNextReview, 3000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="visitor-review-section">
       <p className="section-title">{t('visitorReviews.sectionTitle')}</p>
-      <Card className="review-card">
+      <Card className={`review-card ${isTransitioning ? 'review-card-exit' : ''}`}>
         <p>"{visitorReviews[currentReviewIndex].text}"</p>
         <p className="author-title"> - {visitorReviews[currentReviewIndex].author}</p>
       </Card>
