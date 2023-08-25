@@ -1,20 +1,20 @@
 .visitor-review-section {
   text-align: center;
   padding: 20px;
-  background: #e9edc9;
+  background: var(--light-grayish-green);
 }
 
 .section-title {
-  background: #e9edc9;
-  color: #94af9f;
-  font-size: 22px;
+  background: var(--light-grayish-green);
+  color: var(--dark-grayish-cyan);
+  font-size: var(--font-xxl);
   font-weight: 600;
 }
 
 .review-card {
-  background: #e9edc9;
-  color: #617143;
-  font-size: 22px;
+  background: var(--light-grayish-green);
+  color: var(--very-dark-desaturated-green);
+  font-size: var(--font-xl);
   font-weight: 600;
   padding-top: 0px;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
@@ -37,9 +37,9 @@
 }
 
 .author-title {
-  font-size: 18px;
+  font-size: var(--font-m);
   font-weight: 500;
-  font-style: "italic";
+  font-style: italic;
 }
 
 @media screen and (min-width: 768px) {

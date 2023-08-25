@@ -12,7 +12,7 @@
   }
 
   .gh-card-content > p {
-    font-size: 14px;
+    font-size: var(--font-l);
   }
 }
 
@@ -23,7 +23,7 @@
   }
 
   .gh-card-content > p {
-    font-size: 13px;
+    font-size: var(--font-s);
   }
 }
 
@@ -65,12 +65,12 @@
 
 .gh-card-content > p {
   text-align: center; 
-  font-size: 15px; 
+  font-size: var(--font-xl); 
   font-weight: 500; 
-  color: #49592e;
+  color: var(--very-dark-desaturated-green);
 }
 
 .gh-card-content > h3 {
-  color: #49592e; 
+  color: var(--very-dark-desaturated-green); 
   opacity: 0.5;
 }

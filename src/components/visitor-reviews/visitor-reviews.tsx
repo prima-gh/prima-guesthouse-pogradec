@@ -28,7 +28,7 @@ const VisitorReviewsComponent = () => {
   return (
     <div className="visitor-review-section">
       <p className="section-title">{t('visitorReviews.sectionTitle')}</p>
-      <Card className={`review-card ${isTransitioning ? 'review-card-exit' : ''}`}>
+      <Card className={`review-card ${isTransitioning ? 'review-card-exit' : ''}`} >
         <p>"{visitorReviews[currentReviewIndex].text}"</p>
         <p className="author-title"> - {visitorReviews[currentReviewIndex].author}</p>
       </Card>

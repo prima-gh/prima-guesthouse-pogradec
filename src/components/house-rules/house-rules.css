@@ -25,15 +25,15 @@
 .column > ul {
   text-align: justify;
   word-spacing: 1px;
-  font-size: 15px;
+  font-size: var(--font-l);
   font-weight: 500;
-  color: #49592e;
+  color: var(--very-dark-desaturated-green);
 }
 
 .column > h4 {
   text-align: left;
   margin-left: 38px;
-  color: #49592e;
+  color: var(--very-dark-desaturated-green);
   opacity: 0.5;
 }
 
@@ -46,7 +46,7 @@
   }
 
   .column > ul {
-    font-size: 14px;
+    font-size: var(--font-m);
   }
 
   .container {
@@ -64,7 +64,7 @@
   }
 
   .column > ul {
-    font-size: 13px;
+    font-size: var(--font-s);
   }
 
   .container {

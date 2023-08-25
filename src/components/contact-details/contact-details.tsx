@@ -44,36 +44,36 @@ const ContactDetailsComponent = () => {
     <div className="footer-container">
       <div className="contact-section">
         <div onClick={callUs} style={{ cursor: "pointer", marginRight: 15 }}>
-          <Tooltip title={t('contactDetails.phonecall')} placement="right" color="darkgreen" trigger={"hover"}>
+          <Tooltip title={t('contactDetails.phonecall')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Phone} height={28} width={28} alt="Phone" />
-            <p style={{ marginTop: 5 }}>+355 69 704 6181</p>
+            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>+355 69 704 6181</p>
           </Tooltip>
         </div>
         <div onClick={sendMessageWhatsapp} style={{ cursor: "pointer", marginRight: 15 }}>
-          <Tooltip title={t('contactDetails.whatsapp')} placement="right" color="darkgreen" trigger={"hover"}>
+          <Tooltip title={t('contactDetails.whatsapp')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Wap} height={28} width={28} alt="Wap" />
-            <p style={{ marginTop: 5 }}>+355 68 565 0070</p>
+            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>+355 68 565 0070</p>
           </Tooltip>
         </div>
 
         <div onClick={navigateToBooking} style={{ cursor: "pointer", marginRight: 15 }}>
-          <Tooltip title={t('contactDetails.visitBooking')} placement="right" color="darkgreen" trigger={"hover"}>
+          <Tooltip title={t('contactDetails.visitBooking')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Booking} height={32} width={35} alt="Booking" />
-            <p style={{ marginTop: 2 }}>Prima Guesthouse</p>
+            <p style={{ marginTop: 2, color: 'var(--very-dark-desaturated-green)' }}>Prima Guesthouse</p>
           </Tooltip>
         </div>
 
         <div onClick={navigateToMaps} style={{ cursor: "pointer", marginRight: 15 }}>
-          <Tooltip title={t('contactDetails.visitMaps')} placement="right" color="darkgreen" trigger={"hover"}>
+          <Tooltip title={t('contactDetails.visitMaps')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Maps} height={28} width={28} alt="Maps" />
-            <p style={{ marginTop: 5 }}>Prima Guesthouse</p>
+            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>Prima Guesthouse</p>
           </Tooltip>
         </div>
         
         <div onClick={navigateToInsta} style={{ cursor: "pointer" }} >
-          <Tooltip title={t('contactDetails.visitInsta')} placement="right" color="darkgreen" trigger={"hover"}>
+          <Tooltip title={t('contactDetails.visitInsta')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Insta} height={28} width={28} alt="Insta" />
-            <p style={{ marginTop: 5 }}>prima.guesthouse.pg</p>
+            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>prima.guesthouse.pg</p>
           </Tooltip>
         </div>
       </div>

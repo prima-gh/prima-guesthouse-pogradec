@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   padding: 12px;
-  background-color: #FAEDCD;
-  color: #49592e;
+  background-color: var(--grayish-yellow);
+  color: var(--very-dark-desaturated-green);
   font-weight: 600;
 }
 
